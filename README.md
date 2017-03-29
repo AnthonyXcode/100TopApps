@@ -22,7 +22,7 @@ Step 6:
 Build and task completed.
 
 
-private void shareNews() {
+    private void shareNews() {
         loadingRL.setVisibility(View.VISIBLE);
         if (isEdit) {
             wallPostModel = createWallPostModelByShareNews();
