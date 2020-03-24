@@ -3,6 +3,10 @@
       {
         "pattern": "^(build|ci|docs|feat|fix|perf|refactor|style|test):\\s",
         "message": "Your title needs to be prefixed with a topic"
+      },
+      {
+          "pattern": "DET-\\d{4}|CET-\\d{4}|MOB-\\d{4}|det-\\d{4}|cet-\\d{4}|mob-\\d{4}",
+          "message": "Your title needs to have DET / CET / MOD"
       }
     ],
     "body": [
