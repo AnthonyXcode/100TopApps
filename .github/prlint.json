@@ -5,8 +5,8 @@
         "message": "Your title needs to be prefixed with a topic"
       },
       {
-          "pattern": "^(DET\\S|CET\\S|MOB\\S|det\\S|cet\\S|mob\\S):\\s",
-          "message": "Your title needs to have DET- / CET- / MOD-"
+          "pattern": "^(DET\S|CET\S|MOB\S|det\S|cet\S|mob\S):\\s",
+          "message": "Your title needs to have DET / CET / MOD"
       }
     ],
     "body": [
